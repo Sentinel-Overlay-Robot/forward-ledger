@@ -1,0 +1,216 @@
+{
+ "created": "2026-10-02T16:55:19.373Z",
+ "note": "",
+ "updated": "2026-11-01T16:35:28.049Z",
+ "records": [
+  {
+   "id": "FWD-20260928-quarterly-c1",
+   "asOf": "2026-09-28",
+   "frequency": "quarterly",
+   "option": "c1",
+   "provenance": "backfill",
+   "recommendation": {
+    "periodStart": "2026-09-28",
+    "periodEnd": "2026-10-01",
+    "regime": "on",
+    "equityExposure": 100,
+    "picks": [
+     {
+      "code": "R65-ZSLMUS",
+      "zh": "永明強積金美國股票基金",
+      "w": 100,
+      "role": "股票主力"
+     }
+    ],
+    "rules": {
+     "noTradeBand": 30
+    }
+   },
+   "snapshot": {
+    "asOf": "2026-09-28",
+    "poolSize": 9,
+    "poolVol": 0.17016493960429493,
+    "poolTrend": 0.04751349343635401,
+    "dispersion": 0.1001864006664693
+   },
+   "outcome": null,
+   "role": "research",
+   "ruleFingerprint": "periodic|pre-policy",
+   "projection": {
+    "state": "legacy"
+   }
+  },
+  {
+   "id": "FWD-20260928-monthly-c1",
+   "asOf": "2026-09-28",
+   "frequency": "monthly",
+   "option": "c1",
+   "provenance": "backfill",
+   "recommendation": {
+    "periodStart": "2026-09-28",
+    "periodEnd": "2026-10-01",
+    "regime": "on",
+    "equityExposure": 100,
+    "picks": [
+     {
+      "code": "R65-ZSLMUS",
+      "zh": "永明強積金美國股票基金",
+      "w": 100,
+      "role": "股票主力"
+     }
+    ],
+    "rules": {
+     "noTradeBand": 30
+    }
+   },
+   "snapshot": {
+    "asOf": "2026-09-28",
+    "poolSize": 9,
+    "poolVol": 0.17016493960429493,
+    "poolTrend": 0.04751349343635401,
+    "dispersion": 0.1001864006664693
+   },
+   "outcome": null,
+   "role": "research",
+   "ruleFingerprint": "periodic|pre-policy",
+   "projection": {
+    "state": "legacy"
+   }
+  },
+  {
+   "id": "FWD-20261102-quarterly-cap70",
+   "asOf": "2026-11-02",
+   "dataAsOf": "2026-10-29",
+   "frequency": "quarterly",
+   "option": "cap70",
+   "role": "primary",
+   "provenance": "live",
+   "writtenAt": "2026-11-01T16:35:26.749Z",
+   "recordedBy": "maintainer",
+   "ruleFingerprint": "periodic|liveFrom=2026-11-01|deadBand=0.5|primary=cap70|balanced=bdef15|research=c1",
+   "recommendation": {
+    "periodStart": "2026-11-02",
+    "periodEnd": "2027-01-01",
+    "regime": "off",
+    "equityExposure": 15,
+    "picks": null,
+    "rules": {
+     "noTradeBand": 30,
+     "singleFundCap": 70
+    }
+   },
+   "snapshot": {
+    "asOf": "2026-10-29",
+    "poolSize": 5,
+    "poolVol": 0.1866366400649073,
+    "poolTrend": -0.037145997125069254,
+    "dispersion": 0.03889193805329465,
+    "regime": "off",
+    "riskOff": true,
+    "eventQ": {
+     "score": 0,
+     "critical": false,
+     "brake": 0,
+     "dir": 0,
+     "credibility": 0,
+     "weight": 0
+    },
+    "confidence": 55,
+    "stats": {
+     "vol": 0.023247881911685066,
+     "m12": 0.010145443424670874,
+     "observations": 24
+    },
+    "funds": null
+   },
+   "optionDecisions": null,
+   "engine": {
+    "gitSha": "3e75c6157513497d0f6d2eb6f0cba28f733d211b",
+    "appVersion": "16.5.4",
+    "grid": "daily",
+    "ruleFingerprint": "periodic|liveFrom=2026-11-01|deadBand=0.5|primary=cap70|balanced=bdef15|research=c1",
+    "seedSha256": "d15a142c57783209f6e215ab931b99158d65e2962b3f5c111698b959cdf9f37b",
+    "archiveSha256": "dbc0ef49d03a229ccaeab3ebe2de69d830c6d32f98374f346f32227261b0a807"
+   },
+   "outcome": null,
+   "reveal": null,
+   "commitment": {
+    "algo": "sha256",
+    "hash": "ee29863e9863fc7d42ceb88347ef54718db823246065aaad564bfc2d5c1175fd",
+    "committedAt": "2026-11-01T16:35:26.749Z"
+   },
+   "prevHash": "72659a573db10c0d59f58db0f88e4668d0e9d7e0c6fdca3a1351bacf9a0e6827",
+   "hash": "f0fe2f3ad6a3339eea9a91f5aefc921edf8371424bb1e13472eb40514ce9a561",
+   "projection": {
+    "state": "sealed"
+   }
+  },
+  {
+   "id": "FWD-20261102-quarterly-c1",
+   "asOf": "2026-11-02",
+   "dataAsOf": "2026-10-29",
+   "frequency": "quarterly",
+   "option": "c1",
+   "role": "research",
+   "provenance": "live",
+   "writtenAt": "2026-11-01T16:35:26.749Z",
+   "recordedBy": "maintainer",
+   "ruleFingerprint": "periodic|liveFrom=2026-11-01|deadBand=0.5|primary=cap70|balanced=bdef15|research=c1",
+   "recommendation": {
+    "periodStart": "2026-11-02",
+    "periodEnd": "2027-01-01",
+    "regime": "off",
+    "equityExposure": 15,
+    "picks": null,
+    "rules": {
+     "noTradeBand": 30
+    }
+   },
+   "snapshot": {
+    "asOf": "2026-10-29",
+    "poolSize": 5,
+    "poolVol": 0.1866366400649073,
+    "poolTrend": -0.037145997125069254,
+    "dispersion": 0.03889193805329465,
+    "regime": "off",
+    "riskOff": true,
+    "eventQ": {
+     "score": 0,
+     "critical": false,
+     "brake": 0,
+     "dir": 0,
+     "credibility": 0,
+     "weight": 0
+    },
+    "confidence": 55,
+    "stats": {
+     "vol": 0.023247881911685066,
+     "m12": 0.010145443424670874,
+     "observations": 24
+    },
+    "funds": null
+   },
+   "optionDecisions": null,
+   "engine": {
+    "gitSha": "3e75c6157513497d0f6d2eb6f0cba28f733d211b",
+    "appVersion": "16.5.4",
+    "grid": "daily",
+    "ruleFingerprint": "periodic|liveFrom=2026-11-01|deadBand=0.5|primary=cap70|balanced=bdef15|research=c1",
+    "seedSha256": "d15a142c57783209f6e215ab931b99158d65e2962b3f5c111698b959cdf9f37b",
+    "archiveSha256": "dbc0ef49d03a229ccaeab3ebe2de69d830c6d32f98374f346f32227261b0a807"
+   },
+   "outcome": null,
+   "reveal": null,
+   "commitment": {
+    "algo": "sha256",
+    "hash": "147fe79e1d2d866688603d5a3acc1f2c9a2e0727bfecdaa846e937251df745d3",
+    "committedAt": "2026-11-01T16:35:26.749Z"
+   },
+   "prevHash": "f0fe2f3ad6a3339eea9a91f5aefc921edf8371424bb1e13472eb40514ce9a561",
+   "hash": "af0496d3467420f36204449c0c7ee3fcbb25f675f442210dd608505d4cd52ae8",
+   "projection": {
+    "state": "sealed"
+   }
+  }
+ ]
+}
